@@ -1,0 +1,21 @@
+.container1
+{
+background-color:#b3ffb3;
+border: solid 5px #00b300;
+text-align:center;
+}
+.container2
+{
+background-color:#b3ffb3;
+border: solid 5px #00b300;
+text-align:center;
+}
+ .fuuteri
+{
+position: fixed;
+width:100%;
+background-color:#b3ffb3;
+border: solid 5px #00b300;
+bottom: 0;
+text-align: center;
+}
