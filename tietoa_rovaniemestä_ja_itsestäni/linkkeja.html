@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.ylaosa
+    {
+background-color: green;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+    }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cccc00;
+  color: black;
+  text-align: center;
+}      
+    
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+     border:5px solid black; 
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #b3b3b3;
+  height: 500px;
+    border:5px solid black; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="ylaosa">
+  <h2>Rovaniemi</h2>
+</div>
+
+<section>
+  <nav>
+    <ul>
+        <li> <a href="index.html">Etusivu</a></li>
+      <li><a href="faktaa.html">Faktaa</a></li>
+      <li><a href="nahtavyydet.html">Nähtävyydet</a></li>
+      <li><a href="linkkeja.html">Linkkejä</a></li>
+        <li><a href="tekija.html">Tekijä (Aale Lehtoniemi)</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+      <div>
+    <h1>Linkkejä</h1>
+    <p>Nimensä mukaisesti tällä sivulla on linkkejä.</p>
+          </div>
+      
+      <li><a href="https://commons.wikimedia.org/wiki/Category:Rovaniemi#/media/File:Rovaniemi_06101999_rescanned.jpg">Nähtävyydet -sivun 1. kuvan lähde
+</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:J%C3%A4tk%C3%A4nkynttil%C3%A4n_silta_march_2009.jpg">Nähtävyydet -sivun 2. kuvan lähde </a></li>
+      <li><a href="https://images.unsplash.com/photo-1558360226-5398cf635089?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80">Nähtävyydet sivun 4. kuvan lähde</a></li>
+      <li><a href="https://commons.wikimedia.org/wiki/File:Rovaniemi_Santa_Claus.JPG">Nähtävyydet sivun 5. kuvan lähde </a></li>
+      <div>
+      <ul>
+    
+          </ul>
+      </div>
+  </article>
+</section>
+
+<div class="footer">
+  <p>Mitä tähänkin pitäisi kirjoittaa? Copyright jotain?</p>
+</div>
+
+</body>
+</html>

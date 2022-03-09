@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.ylaosa
+    {
+background-color: green;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+    }
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+    border:5px solid black;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #b3b3b3;
+  height: 600px;
+    border:5px solid black;/* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #cccc00;
+  color: black;
+  text-align: center;
+}
+</style>
+</style>
+</head>
+<body>
+
+<div class="ylaosa">
+  <h2>Rovaniemi</h2>
+    <h3>Tekijä (Aale Lehtoniemi)</h3>
+</div>
+
+<section>
+  <nav>
+    <ul>
+        <li> <a href="index.html">Etusivu</a></li>
+      <li><a href="faktaa.html">Faktaa</a></li>
+      <li><a href="nahtavyydet.html">Nähtävyydet</a></li>
+      <li><a href="linkkeja.html">Linkkejä</a></li>
+        <li><a href="tekija.html">Tekijä (Aale Lehtoniemi)</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    
+    <h1>Tekijä</h1>
+    <p>Näiden sivujen tekijä on siis tosiaan 23-vuotias (s. 23.1.1996) Lapin ammattikorkeakoulun tietojenkäsittelyn tradenomiopiskelija Aale Lehtoniemi (kyllä, AALE eikä mikään Aaro, Aatu tms). Kotoisin Rovaniemeltä ja asunut siellä aina syntymästä näiden opiskelujen alkuun, eli muutin Tornioon virallisesti 1.9.2019.</p>
+    <p>Kai tuossa oli sopivasti tekstiä.</p>
+      <div>
+          <p>Kuva minusta (maaliskuulta 2019)</p>
+        <img src="images/Kuva%20CVhen.jpg" width="200px">
+      </div>
+    
+  </article>
+</section>
+
+<div class="footer">
+  <p>Mitä tähänkin pitäisi kirjoittaa? Copyright jotain?</p>
+    </div>
+
+</body>
+</html>

@@ -2,7 +2,7 @@
 /*
 	file:	viesti.php
 	desc:	Näyttää esim rekisteröinnin jälkeen viestin
-	date:	20.5.2018
+	date:	20.5.2020
 	auth:	Aale L
 */
 $viesti=$_GET['viesti'];

@@ -1,7 +1,7 @@
 <?php
 /*
 	file:	admin/naytatilaus.php
-	desc:	Näyttää valitun tilauksen tilausrivit
+	desc:	Näyttää valitun varauksen 
 	date:	20.5.2020
 	auth:	Aale L
 */
@@ -19,7 +19,7 @@ if($tulos->num_rows > 0){
 	$rivi=$tulos->fetch_assoc();
 	echo '<h4>Kayttaja: '.$rivi['Etunimi'].' '.$rivi['Sukunimi'].', '.$rivi['Puhelin'].'</h4>';
 }	
-//tilauksen rivit
+//varauksen rivit
 $sql="SELECT * FROM varaus WHERE varausID=$varausID";
 $tulos=$conn->query($sql);
 if($tulos->num_rows > 0){
@@ -27,9 +27,9 @@ if($tulos->num_rows > 0){
 	echo '<h4>VarausID: '.$varausID.' /</h4>'; 
 	
 	$sql="SELECT kuvaus,kaytossa,maksimiaika FROM resurssi
-			INNER JOIN tilausrivit
-			ON pizza.PizzaID=tilausrivit.PizzaID
-			WHERE tilausrivit.TilausID=$tilausID";
+			INNER JOIN varaus
+			ON resurssi.resurssiID=varaus.resurssiID
+			WHERE varaus.varausID=$tilausID";
 	$tulos=$conn->query($sql);
 	echo '<table class="table table-hover">';
 	echo '<tr><th>Pizza</th><th>á-hinta</th><th>Kpl</th><th>Summa</th></tr>';

@@ -64,7 +64,7 @@ elseif($sivu=='rekisteroidy') include('rekisteroidy.php');
 ?>
 
 <footer class="fuuteri">
-    <h6 class="<copyright"><small>&#169; 2020 Aale Lehtoniemi (joo, ihan niin kuin joku oikeasti kopioisi tällaisia sivuja...)</small></h6>
+    <h6 class="<copyright"><small>&#169; 2020 Aale Lehtoniemi</small></h6>
     </footer>
 
 
