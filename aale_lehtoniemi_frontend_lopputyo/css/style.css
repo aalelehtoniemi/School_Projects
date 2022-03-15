@@ -1,0 +1,207 @@
+.container1
+{
+border: solid 5px darkviolet;
+float:center;
+display:grid;
+background-color: darkturquoise;
+height:100%;
+width:550px;
+margin: 0 auto;
+text-align:center;
+}
+.tekstikentta1
+{
+display:grid;
+background-color: darkturquoise;
+text-align:center;
+}
+ .wrapper
+{
+height: 240px;
+width:300px;
+}
+.oma2
+{
+margin-top:10px;
+height: 230px;
+width: 140px;
+float:left
+}
+.oma3
+{ margin-top:10px;
+padding-left:20px;
+height: 230px;
+width: 140px;
+float:left
+}
+#facebutton
+{
+float:left;
+display:grid;
+height:50px;
+width:50px;
+clear:both;
+}
+#twitbutton
+{
+float:left;
+display:grid;
+height:50px;
+width:50px;
+clear:both;
+}
+#instabutton
+{
+display:grid;
+height:50px;
+width:50px;
+clear:both;
+}
+#tubebutton
+{
+float:left;
+display:grid;
+height:50px;
+width:50px;
+clear:both;
+}
+.lapinamklogo
+{
+float:left;
+display:block;
+margin-top:50px;
+margin-left: auto;
+margin-right: auto;
+width:200px;
+height:100px;
+}
+.tekstikentta2
+{
+float:left !important;
+margin-left: auto;
+margin-right: auto;
+display:grid;
+height:100%;
+width:500px;
+background-color:darkturquoise;
+clear:both;
+}
+.form-group
+{
+background-color:lightgray;
+margin-left: auto;
+margin-right: auto;
+}
+.rese
+{
+color:darkviolet;
+}
+#registerbutton
+{
+margin-left: auto;
+margin-right: auto;
+display:grid;
+width:300px;
+background-color:orange;
+}
+#loginbutton
+{
+margin-left: auto;
+margin-right: auto;
+display:grid;
+width:300px;
+background-color:red;
+}
+.login
+{
+display:grid;
+background-color:forestgreen;
+color:white;
+text-align:center;
+}
+.rememberme
+{
+display:grid;
+background-color:darkturquoise;
+}
+.signup
+{
+display:grid;
+background-color:lightgray;
+color:black;
+}
+.login grid-item2
+{
+display:grid;
+background-color:lightgray;
+}
+.loginbutton
+{
+display:grid;
+background-color:forestgreen;
+color:white;
+}
+.forgotpassword
+{
+display:grid;
+background-color:lightgray;
+color:black;
+width:100%;
+}
+.psw
+{
+display:grid;
+}
+.loginuser
+{
+display:grid;
+float:left;
+}
+#loginlapinamklogo
+{
+float:left;
+display:block;
+margin-left: auto;
+margin-right: auto;
+width:200px;
+height:100px;
+}
+.form-group
+{
+border:5px solid darkviolet;
+height:250px;
+width:500px;
+}
+#exampleInputUsername1
+{
+width:300px;
+margin-left: auto;
+margin-right: auto;
+}
+#exampleInputEmail1
+{
+width:300px;
+margin-left: auto;
+margin-right: auto;
+}
+#exampleInputPassword1
+{
+width:300px;
+margin-left: auto;
+margin-right: auto;
+}
+.loppuosa
+{
+margin-left: auto;
+margin-right: auto;
+}
+.copyright
+{
+color:darkviolet;
+font-size:10px;
+}
+.ktunnus
+{
+margin-left: auto;
+margin-right: auto;
+}
